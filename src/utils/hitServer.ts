@@ -6,7 +6,7 @@ const urls={
 
 
 export const hitServerApi = async(uri:string) => {
-    const data = await fetch(`${urls.localhost}${uri}`)
+    const data = await fetch(`${urls.server}${uri}`)
 
   
  const res = await data.json()
